@@ -11,10 +11,10 @@ docker run -it --rm \
     --net=host \
     --device=/dev/net/tun \
     --cap-add NET_ADMIN \
-    suyash/tinc \
+    suyashmohan/tinc \
     tincd -D
 ```
 
-To quit just use `ctrl-\`
+To quit just use `ctrl-\` and `ctrl-c` to get more logs
 
 
